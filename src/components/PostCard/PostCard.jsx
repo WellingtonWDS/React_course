@@ -1,3 +1,5 @@
+import "./PostCard.css";
+
 export const PostCard = ({ title, cover, body, id }) => {
   return (
     <div className="post">
